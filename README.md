@@ -6,7 +6,7 @@
 
 需要 .NET 10、CounterStrikeSharp.API 1.0.378+。
 
-把 `PlayerScaleService.cs` 加入项目，在 `Load` 中创建 `scales = new PlayerScaleService(this)`，在 `Unload` 中调用 `scales.Dispose()`。
+把 [PlayerScaleService.cs](source/BigHead/PlayerScaleService.cs) 加入项目，在 `Load` 中创建 `scales = new PlayerScaleService(this)`，在 `Unload` 中调用 `scales.Dispose()`。
 
 ```csharp
 using BigHead;
